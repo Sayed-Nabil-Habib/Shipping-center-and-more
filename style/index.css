@@ -11,32 +11,38 @@ body{
 }
 :root{
   --font-color:white;
+  --max-width:800px;
+  --background-color:white;
+  --margin-auto:auto;
+  --font-weight-300:300;
+  --font-weight-200:200;
+  --dark-color-for-main-content:#666565;
+  --box-shadow:0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  --transition-duration:0.3s;
+  
 }
 /*header*/
 header{
   margin: 0px;
   position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: auto;
+  margin: var(--margin-auto);
   padding: 5px 10px;
-  max-width: 800px;
-  background-color: white;
+  max-width: var(--max-width);
+  background-color: var(--background-color);
   height: 30px;
   
 }
 .header-title{
   padding: 0px 5px;
   margin-top: 10px;
-  font-weight: 300;
+  font-weight: var(--font-weight-300);
   text-transform: capitalize;
 
 }
 nav{
   display: none;
   position: absolute;
-  background-color: #666565;
+  background-color: var(--dark-color-for-main-content);
   width:100%;
   height: 100vh;
   padding: 5px;
@@ -52,15 +58,17 @@ nav a{
   line-height: 2;
   text-decoration: none;
   font-size: 30px;
-  font-weight: 300;
+  font-weight: var(--font-weight-300);
 }
 nav a:hover{
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
-  transition-duration: 0.3s;
+  box-shadow: var(--box-shadow);
+  transition-duration: var(--transition-duration);
 }
+/*hamburger-design*/
+
 #menu-checkbox:checked ~ nav{
   display: block;
-  
+
 }
 #menu-checkbox{
   display: none;
@@ -69,13 +77,13 @@ nav a:hover{
 
 /*main-start-here*/
 .main-top{
-  display: flex;
+  display:flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin: 20px;
 }
 .main-top h2{
-  font-weight: 200;
+  font-weight: var(--font-weight-200);
   
 }
 .main-top img{
@@ -88,12 +96,12 @@ nav a:hover{
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  margin: auto;
+  margin: var(--margin-auto);
   max-width: 800px;
 }
 
 .services, .shipping, .Lamination, .sell-boxes{
-  background-color: #666565;
+  background-color: var(--dark-color-for-main-content);
   height: 200px;
 }
 .print, .Gift, .large-print{
@@ -109,13 +117,13 @@ nav a:hover{
   padding-top: 20px;
   align-items: center;
   margin: 5px;
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-duration);
   transition-property: all;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
 .content:hover{
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-duration);
 }
 
 .content img{
@@ -144,17 +152,16 @@ nav a:hover{
 footer{
   margin: auto;
   max-width: 1200px;
-  background-color: #485460;
-  border-radius: 10px 10px 0px 0px;
+  background-color: #c4ccd3;
+  
 }
-.container{
+.footer-container{
   margin-top: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 800px;
-  
- 
+  margin: auto;
 }
 .footer-title{
   margin-top: 10px;
@@ -197,7 +204,7 @@ nav a{
   
 }
 nav a:hover{
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3)
+  box-shadow: var(--box-shadow);
 }
 
 .hamburger-icon{
@@ -261,13 +268,13 @@ nav a:hover{
   color: black;
 }
 .content{
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-duration);
   transition-property: all;
   
 }
 .content:hover{
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-  transition-duration: 0.3s;
+  transition-duration: var(--transition-duration);
   width: 395px;
   height: ;
 }
