@@ -6,7 +6,7 @@ body{
   padding: 0;
   background-color: #efefef;
   font-family: poppins,sans-serif;
-  max-width: 1200px;
+  max-width: 1920px;
   margin: auto;
 }
 :root{
@@ -27,23 +27,27 @@ header{
   position: relative;
   margin: var(--margin-auto);
   padding: 5px 10px;
-  max-width: var(--max-width);
+  min-width: 300px;
   background-color: var(--background-color);
   height: 30px;
   
 }
 .header-title{
   padding: 0px 5px;
-  margin-top: 10px;
-  font-weight: var(--font-weight-300);
+  margin-top: 20px;
+  font-weight: 700;
+  color: white;
   text-transform: capitalize;
-
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 5px rgb(42, 42, 42);
 }
 nav{
   display: none;
   position: absolute;
   background-color: var(--dark-color-for-main-content);
-  width:100%;
+  max-width: 1920px;
   height: 100vh;
   padding: 5px;
   top: 30px;
@@ -78,18 +82,46 @@ nav a:hover{
 /*main-start-here*/
 .main-top{
   display:flex;
-  flex-direction: row;
+  margin: auto;
+  max-width: 1920px;
+  height:50vh;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-evenly;
-  margin: 20px;
-}
+  background-color:hsla(0,100%,98%,1);
+  background-image:
+  radial-gradient(at 40% 20%, hsla(23,0%,93%,1) 0px, transparent 50%),
+  radial-gradient(at 80% 0%, hsla(189,100%,56%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 50%, hsla(355,100%,93%,1) 0px, transparent 50%),
+  radial-gradient(at 80% 50%, hsla(336,0%,100%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 100%, hsla(20,0%,88%,1) 0px, transparent 50%),
+  radial-gradient(at 80% 100%, hsla(240,69%,89%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);
+  }
 .main-top h2{
   font-weight: var(--font-weight-200);
-  
 }
 .main-top img{
   max-width: 200px;
   max-height: 200px;
   float: right;
+ 
+}
+.sercvices{
+  margin: auto;
+  max-width: 800px;
+  
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+}
+.line{
+  height: 2px;
+  max-width: 850px;
+  background-color: rgb(113, 108, 108);
+  margin: auto;
+  margin-bottom: 10px;
 }
 .main-content{
   display: flex;
@@ -97,7 +129,7 @@ nav a:hover{
   justify-content: space-between;
   width: 100%;
   margin: var(--margin-auto);
-  max-width: 800px;
+  max-width: 1200px;
 }
 
 .services, .shipping, .Lamination, .sell-boxes{
@@ -184,6 +216,7 @@ footer{
 
 header{
   height: 45px;
+  max-width: 1920px;
 }
 nav{
   display: block;
@@ -211,17 +244,20 @@ nav a:hover{
   display: none;
 }
 .header-title{
-
-  margin-top: 10px;
-  left: 0px;
-  
- 
-
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 5px rgb(42, 42, 42);
 }
-
+.main-top{
+  height: 50vh;
+}
 .container{
-  max-width: 810px;
+  max-width: 1920px;
   margin: auto;
+  
 }
 
 .main-content{
@@ -231,7 +267,7 @@ nav a:hover{
   justify-content: space-between;
   width: 100%;
   margin: auto;
-  max-width: 810px;
+  max-width: 1240px;
 }
 
 .content{
