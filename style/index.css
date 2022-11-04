@@ -281,6 +281,24 @@ nav a:hover{
 .main-top{
   height: 50vh;
 }
+.main-top img{
+  max-width: 400px;
+  max-height: 400px;
+  float: right;
+  transition-duration: var(--transition-duration);
+  
+}
+.main-top{
+  display:flex;
+  margin: auto;
+  padding: 0px 80px;
+  max-width: 1920px;
+  height:50vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-evenly;
+  
+  }
 .container{
   max-width: 1920px;
   margin: auto;
