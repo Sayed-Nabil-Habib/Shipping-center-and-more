@@ -321,3 +321,28 @@ nav a:hover{
 }
 
 }
+@media screen and (min-width: 1200px) {
+  .services, .shipping,  .Lamination {
+    background-color: #666565;
+    height: 200px;
+    
+  }
+  .print, .Gift,  .large-print, .sell-boxes{
+    background-color: #FAFAFA;
+    color: black;
+    height: 200px;
+  }
+  .left p{
+    font-weight: 100;
+    text-decoration: underline;
+  }
+  .left a{
+    color: black;
+  }
+  .left h3{
+    color: black;
+  }
+  .left-black a{
+    color: black;
+  }
+}
