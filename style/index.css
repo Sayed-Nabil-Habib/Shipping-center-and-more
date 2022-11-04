@@ -300,13 +300,25 @@ nav a:hover{
   text-decoration: underline;
 }
 .left a{
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .left h3{
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .left-black a{
   color: black;
+}
+.black-800 a{
+  color: black;
+}
+.black-800 h3{
+  color: black;
+}
+.white-800 a{
+  color: white;
+}
+.white-800 h3{
+  color: white;
 }
 .content{
   transition-duration: var(--transition-duration);
@@ -337,12 +349,18 @@ nav a:hover{
     text-decoration: underline;
   }
   .left a{
-    color: black;
+    color: rgb(255, 255, 255);
   }
   .left h3{
-    color: black;
+    color: rgb(255, 250, 250);
   }
   .left-black a{
+    color: black;
+  }
+  .black-1200 a{
+    color: black;
+  }
+  .black-1200 h3{
     color: black;
   }
 }
