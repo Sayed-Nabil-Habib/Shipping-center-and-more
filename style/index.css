@@ -66,7 +66,7 @@ nav a{
   font-weight: var(--font-weight-300);
 }
 nav a:hover{
-  text-shadow: 2px 2px 5px rgb(42, 42, 42);
+  box-shadow: var(--box-shadow);
   transition-duration: var(--transition-duration);
 }
 /*hamburger-design*/
@@ -239,7 +239,8 @@ nav a{
   
 }
 nav a:hover{
-  box-shadow: var(--box-shadow);
+  box-shadow: none;
+  text-shadow: 2px 2px 20px rgb(95, 95, 95);
 }
 
 .hamburger-icon{
@@ -266,7 +267,7 @@ nav a:hover{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   margin: auto;
   max-width: 1240px;
