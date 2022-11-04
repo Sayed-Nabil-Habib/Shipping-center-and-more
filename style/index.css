@@ -114,6 +114,9 @@ nav a:hover{
 }
 
 .sercvices{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   padding-left: 20px;
   margin: auto;
   max-width: 800px;
@@ -124,7 +127,7 @@ nav a:hover{
  
 }
 .line{
-  height: 2px;
+  height: 1px;
   max-width: 850px;
   background-color: rgb(113, 108, 108);
   margin: auto;
