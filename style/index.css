@@ -133,6 +133,7 @@ nav a:hover{
   margin: auto;
   margin-bottom: 10px;
 }
+
 .main-content{
   display: flex;
   flex-direction: column;
@@ -167,8 +168,8 @@ nav a:hover{
 .content:hover{
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   transition-duration: var(--transition-duration);
+  
 }
-
 .content img{
   width: 120px;
   height: 120px;
@@ -179,6 +180,8 @@ nav a:hover{
   font-weight: 400;
   color: white;
 }
+
+
 .left a{
   color: white;
   font-weight: 100;
@@ -291,6 +294,11 @@ nav a:hover{
   transition-duration: var(--transition-duration);
   
 }
+.main-top img:hover{
+  max-width: 420px;
+  max-height:420px;
+}
+
 .main-top{
   display:flex;
   margin: auto;
