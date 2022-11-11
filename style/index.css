@@ -65,6 +65,8 @@ nav a:hover{
   margin: 10px;
   float: right;
 }
+
+}
 /*hamburger-design*/
 
 #menu-checkbox:checked ~ nav{
@@ -89,13 +91,11 @@ nav a:hover{
   margin-top: 70px;
   max-width: 1200px;
   max-height: 800px;
-  height:100vh;
+  height:80vh;
   flex-direction: column;
   align-items: center;
   justify-content:center;
-  
-  
-  
+
   }
 .main-top h1{
   text-align: center;
@@ -107,7 +107,8 @@ nav a:hover{
   }
   .main-top p{
     color: white;
-    margin: 10px;
+    margin: 20px;
+    text-transform: uppercase;
 
   }
 .hero-btn{
@@ -330,23 +331,26 @@ nav a:hover{
   float: left;
  
 }
+.main-logo{
+  max-width: 50px;
+  max-height: 50px;
 
+}
 .hamburger-icon{
   display: none;
 }
 
 .main-top{
- 
   margin: auto;
   padding: 0px 80px;
   max-width: 1920px;
-  height:60vh;
+  height:80vh;
   flex-direction: column;
   align-items: center;
   
   
   }
-  .main-top h1{
+.main-top h1{
     font-size: 60px;
     font-weight: 700;
   }
