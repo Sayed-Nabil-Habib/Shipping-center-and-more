@@ -109,7 +109,12 @@ nav a:hover{
     color: white;
     margin: 20px;
     text-transform: uppercase;
+    text-align: center;
 
+  }
+  .main-logo{
+    width: 150px;
+    height: 150px;
   }
 .hero-btn{
     display: flex;
@@ -331,10 +336,9 @@ nav a:hover{
   float: left;
  
 }
-.main-logo{
-  max-width: 50px;
-  max-height: 50px;
-
+  .main-logo{
+    width: 150px;
+    height: 150px;
 }
 .hamburger-icon{
   display: none;
