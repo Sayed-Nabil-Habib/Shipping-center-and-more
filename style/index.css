@@ -33,19 +33,6 @@ header{
   min-width: 300px;
   background-color: var(--background-color);
   height: 30px;
-  
-}
-.header-title{
-  padding: 0px 5px;
-  margin-top: 20px;
-  padding-left: 20px;
-  font-weight: 700;
-  color: white;
-  text-transform: capitalize;
-  font-size: 50px;
-  font-weight: 700;
-  color: white;
-  text-shadow: 2px 2px 5px rgb(42, 42, 42);
 }
 nav{
   display: none;
@@ -117,14 +104,18 @@ nav a:hover{
     font-weight: 400;
     font-size: 40px;
   }
-  .hero-btn{
+  .main-top p{
+    color: white;
+
+  }
+.hero-btn{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin:10px;
     color: white;
-    background-color: #1e29ef;
+    background-color: #3f48ee;
     border: none;
     text-decoration: none;
    
@@ -288,7 +279,7 @@ span{
 header{
   display: flex;
   flex-direction: row;
-  margin: auto;
+  margin-bottom: 40px;
   height: 45px;
   max-width: 900px;
 
@@ -317,7 +308,7 @@ nav{
   margin-top: 15px;
   padding: 5px;
   
-  background-color: #FC3F00;
+  background-color: #3f48ee;
 }
 .active{
   text-decoration: underline;
@@ -342,42 +333,23 @@ nav a:hover{
 .hamburger-icon{
   display: none;
 }
-.header-title{
-  margin-top: 100px;
-  margin-bottom: 30px;
-  font-size: 60px;
-  font-weight: 700;
-  color: white;
-  text-shadow: 2px 2px 5px rgb(42, 42, 42);
-}
-.main-top{
-  height: 50vh;
-}
-.main-top img{
-  max-width: 400px;
-  max-height: 400px;
-  float: right;
-  transition-duration: var(--transition-duration);
-  
-}
-
-.main-top img:hover{
-  max-width: 420px;
-  max-height:420px;
-}
 
 .main-top{
-  display:flex;
+ 
   margin: auto;
   padding: 0px 80px;
   max-width: 1920px;
-  height:50vh;
+  height:60vh;
   flex-direction: column;
   align-items: center;
-  justify-content:space-evenly;
+  
   
   }
-  .hero-btn{
+  .main-top h1{
+    font-size: 60px;
+    font-weight: 700;
+  }
+.hero-btn{
     display: none;
   }
 .container{
