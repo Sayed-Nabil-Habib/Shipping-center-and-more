@@ -25,7 +25,6 @@ body{
 }
 /*header*/
 header{
-  
   margin: 0px;
   position: relative;
   margin: var(--margin-auto);
@@ -88,7 +87,8 @@ nav a:hover{
   background-size: cover;
   display:flex;
   margin-top: 70px;
-  max-width: 1920px;
+  max-width: 1200px;
+  max-height: 500px;
   height:50vh;
   flex-direction: column;
   align-items: center;
@@ -277,12 +277,20 @@ span{
 @media screen and (min-width: 800px) {
 
 header{
-  display: flex;
-  flex-direction: row;
+  position: fixed;
   margin-bottom: 40px;
-  height: 45px;
-  max-width: 900px;
-
+  height: 85px;
+  max-width: 1920px;
+  max-height: 200px;
+  width: 100%;
+}
+.container-header{
+  max-width: 800px;
+  max-height: 200px;
+  display: flex;
+  align-content: center;
+  margin: auto;
+  
 }
 nav{
   display: block;
