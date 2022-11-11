@@ -101,8 +101,9 @@ nav a:hover{
   text-align: center;
   margin: 20px;
     color: white;
-    font-weight: 400;
+    
     font-size: 40px;
+    font-weight: 700;
   }
   .main-top p{
     color: white;
@@ -218,33 +219,34 @@ nav a:hover{
   color: black;
   font-weight: 100;
 }
+
 /*footer-start-here*/
 footer{
-  display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  background-image: url(../materials/wave\ \(8\).svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: auto;
-  max-width: 1920px;
- 
-  margin-top: 20px;
   
+
+}
+.logo-cotainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
 .footer-container{
+  background-color: black;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items:center;
   max-width: 800px;
   margin: auto;
+  max-width: 1920px;
+  margin-top: 20px;
 }
 .footer-title{
-  margin-top: 120px;
+  margin-top: 20px;
   font-weight: 400;
   font-size: 30px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .footer-images img{ 
@@ -266,6 +268,13 @@ footer{
   margin: 20px;
   max-width: 150px;
   font-weight: 300;
+}
+.rest-container{
+  color: rgb(142, 142, 142);
+  max-width: 160px;
+  text-align: center;
+  margin-top: 30px;
+
 }
 span{
 
@@ -434,12 +443,16 @@ nav a:hover{
   width: 395px;
   height: ;
 }
-.contact-footer{
+.rest-container{
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: baseline;
-
+  align-items:center;
+  max-width: 800px;
+  margin: 10px
+}
+.items{
+  margin: 20px;
 }
 }
 /*1200px media screen design*/
