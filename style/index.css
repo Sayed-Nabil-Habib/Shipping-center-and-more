@@ -1,5 +1,6 @@
 *{
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 body{
@@ -67,15 +68,17 @@ nav a:hover{
 
 #menu-checkbox:checked ~ nav{
   display: block;
-
+  
 }
 #menu-checkbox{
   display: none;
   margin: 5px;
+  
 }
 .hamburger-icon{
-  margin: 10px 10px;
+    margin-top: 50px;
 }
+
 /*main-start-here*/
 .main-top{
   background-image: url("../materials/Hero-background.png");
@@ -113,6 +116,7 @@ nav a:hover{
   .main-logo:hover{
     width: 160px;
     height: 160px;
+    filter: drop-shadow(3px 3px 9px rgb(0, 0, 0));
    transition-duration: 0.3s;
   }
 .hero-btn{
@@ -456,6 +460,7 @@ nav a:hover{
 }
 .footer-container{
   height: 200px;
+  text-decoration: none;
 }
 .line{
   display: block;
@@ -504,5 +509,4 @@ nav a:hover{
   }
   .footer-title{
     margin-top: 140px;
-}
 }
