@@ -297,7 +297,10 @@ nav a:hover{
   font-size: 14px;
   margin-bottom: 5px;
 }
-
+.emailto{
+  text-decoration: none;
+  color: rgb(142, 142, 142);
+}
 /*>800px media screen design*/
 
 @media screen and (min-width: 800px) {
