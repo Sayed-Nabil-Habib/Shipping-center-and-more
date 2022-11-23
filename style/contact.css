@@ -300,6 +300,9 @@ span{
   }
   .items{
     margin: 20px;
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+
   
     
   }

@@ -275,6 +275,9 @@ nav a:hover{
   }
   .items{
     margin: 20px;
+    text-decoration: none;
+  color: rgb(142, 142, 142);
+
   }
 .footer-container{
   height: 200px;
