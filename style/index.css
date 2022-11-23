@@ -59,6 +59,8 @@ nav a{
 nav a:hover{
   box-shadow: var(--box-shadow);
   transition-duration: var(--transition-duration);
+  
+  
 }
 .logo{
   width: 60px;
@@ -101,7 +103,6 @@ nav a:hover{
   text-align: center;
   margin: 20px;
     color: white;
-    
     font-size: 40px;
     font-weight: 700;
   }
@@ -239,13 +240,8 @@ nav a:hover{
 }
 
 /*footer-start-here*/
-footer{
-  
 
-}
-.line{
-  display: none;
-}
+
 .logo-cotainer{
   display: flex;
   flex-direction: column;
@@ -341,12 +337,10 @@ nav a{
   font-size: 20px;
   font-weight: 300;
   color: rgb(145, 145, 145);
- 
-  
 }
 nav a:hover{
   box-shadow: none;
-  text-shadow: 2px 2px 20px rgb(95, 95, 95);
+  text-decoration: underline;
 }
 .logo{
   float: left;
@@ -468,13 +462,7 @@ nav a:hover{
   height: 200px;
   
 }
-.line{
-  display: block;
-  width: 100%;
-  height: 1px;
-  color: rgb(255, 255, 255);
-  margin-bottom: 40px;
-}
+
 /*1200px media screen design*/
 
 @media screen and (min-width: 1200px) {
@@ -509,9 +497,6 @@ nav a:hover{
   }
   footer{
     min-height: 200px;
-  
-  
-  
   }
   .footer-title{
     margin-top: 140px;

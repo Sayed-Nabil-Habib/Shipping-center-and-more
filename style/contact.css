@@ -4,13 +4,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-color:hsla(96,100%,93%,1);
-  background-color:hsla(98,0%,100%,0.58);
-  background-color:hsla(98,0%,100%,0.58);
-  background-image:
-  radial-gradient(at 20% 8%, hsla(76,5%,87%,1) 0px, transparent 50%),
-  radial-gradient(at 79% 9%, hsla(129,68%,87%,0.37) 0px, transparent 50%),
-  radial-gradient(at 87% 79%, hsla(0,0%,100%,1) 0px, transparent 50%);
+  background-color:white;
   font-family: poppins,sans-serif;
   max-width: 1920px;
   margin: auto;
@@ -62,6 +56,7 @@ nav a{
 nav a:hover{
   box-shadow: var(--box-shadow);
   transition-duration: var(--transition-duration);
+  
 }
 .logo{
   width: 60px;
@@ -145,7 +140,47 @@ span{
   font-weight: 500;
   text-decoration: underline;
 }
+.logo-cotainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.footer-container{
+  background-color: black;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items:left;
+  max-height: 445px;
+  margin: auto;
+  max-width: 1920px;
+  margin-top: 20px;
+}
+.footer-title{
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: 30px;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+}
 
+.footer-images img{ 
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+}
+
+.rest-container{
+  color: rgb(142, 142, 142);
+  max-width: 160px;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 30px;
+  text-decoration: none;
+
+}
 
 /*media-screen*/
 @media screen and (min-width: 800px) {
@@ -189,7 +224,7 @@ span{
     max-height: 50px;
     margin-top: 15px;
     padding: 5px;
-    
+
     background-color: #3f48ee;
   }
   .active{
@@ -204,7 +239,7 @@ span{
   }
   nav a:hover{
     box-shadow: none;
-    text-shadow: 2px 2px 20px rgb(95, 95, 95);
+    text-decoration: underline;
   }
   
   .hamburger-icon{
@@ -236,4 +271,21 @@ span{
     justify-content: center;
     align-items: baseline;
   
+  }
+  .rest-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    max-width: 800px;
+    margin: auto;
+  }
+  .items{
+    margin: 20px;
+  
+    
+  }
+  .footer-container{
+    height: 200px;
+    
   }
